@@ -4,10 +4,10 @@ from telegram import Update, BotCommand
 from telegram.ext import Application, CommandHandler, ContextTypes
 import os
 
-TOKEN = os.getenv("TELEGRAM_TOKEN")
+TOKEN = os.getenv("7890990736:AAGLrfodkRgMt6DgaOvii9xqKlD07Gj9UoI")
 GROUP_ID_MENSAL = int(os.getenv("GROUP_ID_MENSAL", "-1002888110541"))
 GROUP_ID_CAMGIRL = int(os.getenv("GROUP_ID_CAMGIRL", "-1002555928953"))
-WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "supervipsecret123")
+WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "Vj0MP8L74Ow7m1Kfb3mQznYZ1mApAnecf0ddab-12ed-4d80-b2c0-85834d9668a8")
 
 app = Flask(__name__)
 
