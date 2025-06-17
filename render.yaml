@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: super-vip-bot
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn main:app"
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 7890990736:AAGLrfodkRgMt6DgaOvii9xqKlD07Gj9UoI
+      - key: GROUP_ID_MENSAL
+        value: -1002888110541
+      - key: GROUP_ID_CAMGIRL
+        value: -1002555928953
+      - key: WEBHOOK_SECRET
+        value: supervipsecret123
