@@ -4,9 +4,7 @@ from telegram import Update, BotCommand
 from telegram.ext import Application, CommandHandler, ContextTypes
 import os
 
-TOKEN = os.getenv("7890990736:AAGLrfodkRgMt6DgaOvii9xqKlD07Gj9UoI")
 TOKEN = os.getenv("TOKEN")
-print(f"DEBUG: TOKEN = {TOKEN}")
 
 GROUP_ID_MENSAL = int(os.getenv("GROUP_ID_MENSAL", "-1002888110541"))
 GROUP_ID_CAMGIRL = int(os.getenv("GROUP_ID_CAMGIRL", "-1002555928953"))
